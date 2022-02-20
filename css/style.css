@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+.wrapper {
+    user-select: none;
+}
+
+.wrapper .crono {
+    background-color: #fff;
+    height: 6.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.09);
+    padding: 0 10px;
+}
+
+.wrapper .crono span {
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+.crono span.colon{
+    width: 10px;
+}
+.wrapper .buttons{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content:space-around;
+}
+.buttons button{
+    padding: 6px 16px;
+    outline: none;
+    border: none;
+    margin: 0 5px;
+    color: blueviolet;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.09);
+}
